@@ -89,38 +89,38 @@ function buildReadme(answers){
   }
   return `
   # ${answers.title}${licenseBadge}
-  ## Table of Contents
-  [Project Description](#Project-Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [Contribution](#Contribution)
-  [Testing](#Testing)
-  [Project License](#Project-License)
-  [Contact](#Contact)
+  ## Table of Contents  
+  [Project Description](#Project-Description)  
+  [Installation](#Installation)  
+  [Usage](#Usage)  
+  [Contribution](#Contribution)  
+  [Testing](#Testing)  
+  [Project License](#Project-License)  
+  [Contact](#Contact)  
 
-  ##Project Description
+  ## Project Description
   ${answers.description}
 
-  ##Installation
+  ## Installation
   ${answers.installation}
 
-  ##Usage
+  ## Usage
   ${answers.usage}
 
-  ##Contribution
+  ## Contribution
   ${answers.contribution}
 
-  ##Testing
+  ## Testing
   ${answers.test}
 
-  ##Project License
+  ## Project License
   ${answers.license}
   ${licenseBadge}
 
-  ##Contact
-  GitHub Profile: ${answers.gitProfile}
-  GitHub Username: ${answers.gitUsername}
-  Email: ${answers.email}
+  ## Contact
+  GitHub Profile: ${answers.gitProfile}  
+  GitHub Username: ${answers.gitUsername}  
+  Email: ${answers.email}  
   `
 } 
 // Function call to initialize app
